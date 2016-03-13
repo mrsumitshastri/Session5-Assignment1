@@ -1,4 +1,4 @@
-package com.Session5.Assignment1;
+package com.Session6.Assignment1;
 
 import java.util.Scanner;
 
