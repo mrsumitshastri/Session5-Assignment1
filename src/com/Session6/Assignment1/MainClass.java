@@ -5,6 +5,12 @@ import com.Session6.Assignment1.ExampleInterface;
 public class MainClass {
 
 	public static void main(String[] args) {
+		/*
+		 * 		Defining an interface and its implementation in two different classes in different way. Define an
+				interface having one method that takes an integer parameter. For this method, provide two
+				implementations: In the first one, just print the value and in the second one, print the square of the
+				number. Try to call both the versions.
+		 */
 		ExampleInterface example = null  ;
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter you choice \nFor Printing value : 1 \nFor Printing Square of value : 2");
@@ -40,7 +46,6 @@ class classForPrintingValue extends base implements ExampleInterface
 		this.number = number;
 	}
 	public void print() {
-		// TODO Auto-generated method stub
 		System.out.println(" value is :"+ this.number);
 	}
 	
